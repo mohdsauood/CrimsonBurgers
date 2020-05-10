@@ -1,0 +1,170 @@
+/*CSS FOR INITIAL OR VISIT PAGE */
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contactInfo{
+    background-color: black;
+    color: white;
+    padding: .8rem 20vw;
+}
+
+.contactInfo p {
+    margin: 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contactInfo span{
+    background-color:crimson;
+    margin: 0 2vw;
+    padding: 0.5rem 0.2rem;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    padding: 0 20vw;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 3vw;
+    font-size: 1.2rem;
+    padding: .4rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+    color: crimson;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background:crimson;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+
+  
+.fa-hamburger{
+    color: crimson;
+}
+
+.jumbotron{
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color:white;
+    padding: .4rem;
+}
+
+.jumbotron h3{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-transform:capitalize;
+    font-size: 4.5rem;
+    letter-spacing: .2rem;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkgray;
+    /* text-shadow:rgba(19, 19, 19, 0.329) 3px 5px 2px; */
+}
+
+.jumbotron button{
+    display:block;
+    margin: 0 auto;
+    background-color: crimson;
+    color: white;
+    border: 0;
+    font-size: 1.5rem;
+    padding: .5rem 2rem;
+    border-radius:40px;
+    cursor: pointer;
+}
+.jumbotron button:hover{
+    transform: scale(1.1);
+}
+
+.miniJumbotron{
+    padding: 1rem;
+   background-color: rgb(153, 18, 45);
+   text-align: center;
+   color:white;
+   cursor: pointer;
+   height: 20vh;
+}
+
+.miniJumbotron h2{
+    margin: 0;
+    font-size: 3.1rem;
+    font-weight: 900;
+    text-shadow: 1px 2px lightgray;
+}
+.miniJumbotron p{
+font-size: 1.4rem;
+}
+footer{
+    padding: 10vh 20vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer h6{
+    font-size: 1.4rem;
+    padding: .3rem;
+    border-bottom: 1px solid white;
+    transition-property: color;
+    transition-duration: 2s;
+}
+footer p{
+    padding: .5rem;
+    transition-property: color;
+    transition-duration: 1s;
+}
+footer h6,footer p{
+    margin: 0;
+    cursor: pointer;
+}
+footer p:hover{
+    color: crimson;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    padding: 0 20vw;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+}

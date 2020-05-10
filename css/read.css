@@ -1,0 +1,71 @@
+.read {
+    height: 80vh;
+}
+
+.read_fixedbackground {
+    display: flex;
+}
+
+.read_fixedbackground div{
+    width: 100%;
+    height: 40vh;
+}
+.read_mission{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/read-table.jpg');
+    background-size: 100% 100%;
+    background-position:center;
+    color: white;
+}
+.read_mission h5{
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.read_mission p{
+    padding:0 12rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.read_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    background-image: url(../images/read-burger.jpg);
+    background-size:cover;
+    background-position:center;
+    color:black;
+}
+.read_title p{
+    margin: .3rem;
+    font-weight: 900;
+    text-shadow:1px 2px lightgray;
+}
+.read_founded {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: crimson;
+}
+
+.read_founded h5{
+    font-size: 3.4rem;
+    padding: 1.4rem 0;
+    margin: 0;
+    font-weight: 900;
+}
+.read_founded p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 4rem;
+}
