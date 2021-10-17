@@ -5,6 +5,8 @@
 }
 
 .contactInfo{
+    display: flex;
+    justify-content: center;
     background-color: black;
     color: white;
     padding: .8rem 20vw;
